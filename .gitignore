@@ -17,3 +17,6 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Guide File
+guide.txt
