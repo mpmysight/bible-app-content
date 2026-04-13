@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "updated": "2026-04-13",
+  "bibles": [
+    {
+      "id": "KJV",
+      "shortName": "KJV",
+      "longName": "King James Version",
+      "language": "English",
+      "filename": "bibles/kjv.json",
+      "version": 1,
+      "size_kb": 5043,
+      "bundled": true
+    },
+    {
+      "id": "RR64",
+      "shortName": "RR64",
+      "longName": "Baibuli Erikwera (1964)",
+      "language": "Runyankole",
+      "filename": "bibles/rr64.json",
+      "version": 1,
+      "size_kb": 4654,
+      "bundled": true
+    }
+  ],
+  "songs": [
+    {
+      "id": "EN",
+      "name": "English Hymns",
+      "language": "English",
+      "filename": "songs/songs_en.json",
+      "version": 1,
+      "count": 10,
+      "bundled": true
+    },
+    {
+      "id": "RRZ",
+      "name": "Runyankole Rukiga, Zaburi",
+      "language": "Runyankole",
+      "filename": "songs/songs_rrz.json",
+      "version": 1,
+      "count": 315,
+      "bundled": true
+    }
+  ],
+  "devotions": [
+    {
+      "id": "spurgeon",
+      "name": "Morning & Evening (Spurgeon)",
+      "filename": "devotions/devotions.json",
+      "version": 1,
+      "bundled": false,
+      "remote_url": "https://morningandevening.info/api/"
+    }
+  ]
+}
