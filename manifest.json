@@ -1,26 +1,78 @@
 {
-  "version": 1,
-  "updated": "2026-04-13",
+  "version": 3,
+  "updated": "2026-04-14",
   "bibles": [
     {
       "id": "KJV",
       "shortName": "KJV",
       "longName": "King James Version",
       "language": "English",
+      "region": "International",
       "filename": "bibles/kjv.json",
       "version": 1,
       "size_kb": 5043,
-      "bundled": true
+      "bundled": true,
+      "description": "The classic 1611 English translation. Public domain."
     },
     {
       "id": "RR64",
       "shortName": "RR64",
       "longName": "Baibuli Erikwera (1964)",
-      "language": "Runyankole",
+      "language": "Runyankole-Rukiga",
+      "region": "Africa",
       "filename": "bibles/rr64.json",
       "version": 1,
       "size_kb": 4654,
-      "bundled": true
+      "bundled": false,
+      "description": "Runyankole-Rukiga Bible translation (1964)."
+    },
+    {
+      "id": "WEB",
+      "shortName": "WEB",
+      "longName": "World English Bible",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/web.json",
+      "version": 1,
+      "size_kb": 4800,
+      "bundled": false,
+      "description": "Modern English translation. Public domain."
+    },
+    {
+      "id": "ASV",
+      "shortName": "ASV",
+      "longName": "American Standard Version",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/asv.json",
+      "version": 1,
+      "size_kb": 4700,
+      "bundled": false,
+      "description": "1901 American Standard Version. Public domain."
+    },
+    {
+      "id": "DARBY",
+      "shortName": "DARBY",
+      "longName": "Darby Bible",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/darby.json",
+      "version": 1,
+      "size_kb": 4600,
+      "bundled": false,
+      "description": "John Nelson Darby translation (1890). Public domain."
+    },
+    {
+      "id": "YLT",
+      "shortName": "YLT",
+      "longName": "Young's Literal Translation",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/ylt.json",
+      "version": 1,
+      "size_kb": 4500,
+      "bundled": false,
+      "description": "Robert Young's very literal translation (1862). Public domain."
     }
   ],
   "songs": [
@@ -28,29 +80,35 @@
       "id": "EN",
       "name": "English Hymns",
       "language": "English",
+      "region": "International",
+      "category": "international",
       "filename": "songs/songs_en.json",
-      "version": 2,
+      "version": 1,
       "count": 69,
-      "bundled": true
+      "bundled": false,
+      "description": "Classic public domain English hymns."
     },
     {
       "id": "RRZ",
       "name": "Runyankole Rukiga, Zaburi",
       "language": "Runyankole",
+      "region": "Africa",
+      "category": "african",
       "filename": "songs/songs_rrz.json",
       "version": 1,
       "count": 315,
-      "bundled": true
+      "bundled": false,
+      "description": "Runyankole Rukiga hymnal — Centenary Publishing House Ltd."
     }
   ],
   "devotions": [
     {
       "id": "spurgeon",
-      "name": "Morning & Evening (Spurgeon)",
+      "name": "Morning & Evening",
+      "author": "Charles H. Spurgeon",
       "filename": "devotions/devotions.json",
       "version": 1,
-      "bundled": false,
-      "remote_url": "https://morningandevening.info/api/"
+      "bundled": true
     }
   ]
 }
