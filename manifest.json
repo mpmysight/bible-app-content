@@ -73,6 +73,19 @@
       "size_kb": 4500,
       "bundled": false,
       "description": "Robert Young's very literal translation (1862). Public domain."
+    },
+    {
+      "id": "SW",
+      "shortName": "SW",
+      "longName": "Biblia Takatifu (Swahili)",
+      "language": "Swahili",
+      "region": "Africa",
+      "filename": "bibles/swahili.json",
+      "version": 2,
+      "size_kb": 1442,
+      "bundled": false,
+      "description": "Swahili Bible translation.",
+      "verses": 0
     }
   ],
   "songs": [
