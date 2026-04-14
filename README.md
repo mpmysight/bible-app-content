@@ -1,90 +1,112 @@
-# Bible App Content Repository
+# Twino Bible — Content Repository
 
 This repository hosts Bible translations, song books, and devotional content
-for the Bible App. The app fetches content from here on launch and caches it locally.
+for the Twino Bible app. The app fetches content from here on demand.
 
-## Structure
+## Repository Structure
 
 ```
 bible-app-content/
 ├── bibles/
-│   ├── kjv.json          King James Version
-│   └── rr64.json         Baibuli Erikwera — Runyankole (1964)
+│   ├── rr64.json          Baibuli Erikwera — Runyankole (1964)
+│   ├── web.json           World English Bible
+│   ├── asv.json           American Standard Version
+│   ├── darby.json         Darby Bible
+│   └── ylt.json           Young's Literal Translation
 ├── songs/
-│   ├── songs_en.json     English Hymns
-│   └── songs_rrz.json    Runyankole Rukiga, Zaburi (315 songs)
+│   ├── songs_en.json      English Hymns (69 public domain hymns)
+│   └── songs_rrz.json     Runyankole Rukiga, Zaburi (315 songs)
 ├── devotions/
-│   └── devotions.json    Offline devotions fallback
-├── manifest.json         Content catalogue (app reads this first)
-└── tools/                Conversion scripts (run locally, not deployed)
-    ├── convert_yet.py    .yet Bible → JSON
-    ├── convert_songs.py  Song book .txt → JSON
-    ├── update_manifest.py Update manifest after converting
-    └── publish.py        One-command convert + push
+│   └── devotions.json     Morning & Evening (Spurgeon, bundled in app)
+├── manifest.json          Master catalog — app reads this first
+└── tools/
+    ├── download_bibles.py  Download public domain Bibles from internet
+    ├── convert_yet.py      Convert .yet Bible files to JSON
+    ├── convert_songs.py    Convert song book .txt files to JSON
+    ├── update_manifest.py  Refresh manifest.json
+    └── publish.py          One-command convert + push
 ```
 
-## How to Update Content
+## How to Add Content
 
-### Update the Runyankole Bible
-
-1. Make corrections to your `.yet` source file
-2. Run from this repo root:
-```bash
-python tools/publish.py --bible path/to/Runyankore_RR64.yet
-```
-This converts it, updates the manifest, and pushes to GitHub.
-All app users get the update on their next launch.
-
-### Update a Song Book
+### Download public domain Bibles (WEB, ASV, Darby, YLT, BBE)
 
 ```bash
-python tools/publish.py --songs path/to/_rrz.txt --id RRZ --name "Runyankole Rukiga, Zaburi" --language Runyankole
+# Download all at once
+python tools/publish.py --all-bibles
+
+# Or one at a time
+python tools/publish.py --bible WEB
+python tools/publish.py --bible ASV
 ```
 
-### Convert Only (no push)
+### Convert your own .yet Bible file
 
 ```bash
-python tools/convert_yet.py path/to/bible.yet
-python tools/convert_songs.py path/to/songs.txt --id RRZ
+python tools/publish.py --yet path/to/Runyankore_RR64.yet
 ```
 
-### Push All Changes Manually
+### Add a song book
+
+```bash
+python tools/publish.py --songs path/to/_rrz.txt \
+  --id RRZ --name "Runyankole Rukiga, Zaburi" --language Runyankole
+```
+
+### Just update manifest and push
 
 ```bash
 python tools/publish.py --manifest-only
 ```
 
-## Adding a New Bible Translation
+## Adding New Content to the Catalog
 
-1. Get a `.yet` file for the translation
-2. Run: `python tools/convert_yet.py translation.yet`
-3. Add an entry to `manifest.json` under `"bibles"`
-4. Run: `python tools/publish.py --manifest-only`
+To add a new Bible or song book to the app's download catalog:
 
-## Adding a New Song Book
+1. Add the JSON file to `bibles/` or `songs/`
+2. Add an entry to `manifest.json` under `"bibles"` or `"songs"`
+3. For song books set `"category": "african"` or `"category": "international"`
+4. Run `python tools/publish.py --manifest-only` to push
 
-1. Create a `.txt` file in the androidbible song book format
-2. Run: `python tools/convert_songs.py mysongs.txt --id CODE --name "Book Name" --language Language`
-3. Add an entry to `manifest.json` under `"songs"`
-4. Run: `python tools/publish.py --manifest-only`
+### Song Book Entry Format
 
-## How the App Uses This Repo
-
-The app fetches:
+```json
+{
+  "id": "XYZ",
+  "name": "My Song Book",
+  "language": "English",
+  "region": "Africa",
+  "category": "african",
+  "filename": "songs/songs_xyz.json",
+  "version": 1,
+  "count": 150,
+  "bundled": false,
+  "description": "Brief description of the song book."
+}
 ```
-https://raw.githubusercontent.com/[your-username]/bible-app-content/main/manifest.json
-```
 
-It compares version numbers in the manifest with its cached copies.
-If the server version is newer, it downloads the updated file and caches it.
-If offline, it uses the last cached version (or the bundled fallback).
+### Bible Entry Format
+
+```json
+{
+  "id": "WEB",
+  "shortName": "WEB",
+  "longName": "World English Bible",
+  "language": "English",
+  "region": "International",
+  "filename": "bibles/web.json",
+  "version": 1,
+  "size_kb": 4800,
+  "bundled": false,
+  "description": "Modern English translation. Public domain."
+}
+```
 
 ## Content URLs (raw GitHub)
 
+The app fetches from:
 ```
-https://raw.githubusercontent.com/[your-username]/bible-app-content/main/bibles/rr64.json
-https://raw.githubusercontent.com/[your-username]/bible-app-content/main/songs/songs_rrz.json
-https://raw.githubusercontent.com/[your-username]/bible-app-content/main/manifest.json
+https://raw.githubusercontent.com/mpmysight/bible-app-content/main/manifest.json
+https://raw.githubusercontent.com/mpmysight/bible-app-content/main/bibles/rr64.json
+https://raw.githubusercontent.com/mpmysight/bible-app-content/main/songs/songs_rrz.json
 ```
-
-Replace `[your-username]` with your GitHub username after creating the repo.
