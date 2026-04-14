@@ -93,8 +93,8 @@
       "language": "English",
       "region": "International",
       "filename": "bibles/niv.json",
-      "version": 2,
-      "size_kb": 4539,
+      "version": 3,
+      "size_kb": 4478,
       "bundled": false,
       "description": "Arul John NIV Github Bible.",
       "verses": 31087
