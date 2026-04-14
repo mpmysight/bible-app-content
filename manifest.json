@@ -77,15 +77,27 @@
     {
       "id": "SW",
       "shortName": "SW",
-      "longName": "Biblia Takatifu (Swahili)",
+      "longName": "Swahili New Testament",
       "language": "Swahili",
       "region": "Africa",
-      "filename": "bibles/swahili.json",
-      "version": 2,
-      "size_kb": 1442,
+      "filename": "bibles/sw.json",
+      "version": 1,
+      "size_kb": 1095,
       "bundled": false,
-      "description": "Swahili Bible translation.",
-      "verses": 0
+      "description": "Public Domain Swahili New Testament."
+    },
+    {
+      "id": "NIV",
+      "shortName": "NIV",
+      "longName": "New International Version",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/niv.json",
+      "version": 2,
+      "size_kb": 4539,
+      "bundled": false,
+      "description": "Arul John NIV Github Bible.",
+      "verses": 31087
     }
   ],
   "songs": [
