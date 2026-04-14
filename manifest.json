@@ -33,8 +33,8 @@
       "language": "English",
       "region": "International",
       "filename": "bibles/web.json",
-      "version": 1,
-      "size_kb": 4800,
+      "version": 2,
+      "size_kb": 4634,
       "bundled": false,
       "description": "Modern English translation. Public domain."
     },
@@ -84,7 +84,7 @@
       "category": "international",
       "filename": "songs/songs_en.json",
       "version": 1,
-      "count": 69,
+      "count": 260,
       "bundled": false,
       "description": "Classic public domain English hymns."
     },
