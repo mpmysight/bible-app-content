@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-04-14",
+  "updated": "2026-04-16",
   "bibles": [
     {
       "id": "KJV",
@@ -15,16 +15,30 @@
       "description": "The classic 1611 English translation. Public domain."
     },
     {
+      "id": "NKJV",
+      "shortName": "NKJV",
+      "longName": "New King James Version",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/nkjv.json",
+      "version": 2,
+      "size_kb": 4639,
+      "bundled": true,
+      "description": "The New King James Version translation.",
+      "verses": 31102
+    },
+    {
       "id": "RR64",
       "shortName": "RR64",
       "longName": "Baibuli Erikwera (1964)",
       "language": "Runyankole-Rukiga",
       "region": "Africa",
       "filename": "bibles/rr64.json",
-      "version": 1,
-      "size_kb": 4654,
+      "version": 2,
+      "size_kb": 4647,
       "bundled": false,
-      "description": "Runyankole-Rukiga Bible translation (1964)."
+      "description": "Runyankole-Rukiga Bible translation (1964).",
+      "verses": 31106
     },
     {
       "id": "WEB",
@@ -93,8 +107,8 @@
       "language": "English",
       "region": "International",
       "filename": "bibles/niv.json",
-      "version": 3,
-      "size_kb": 4478,
+      "version": 4,
+      "size_kb": 4476,
       "bundled": false,
       "description": "Arul John NIV Github Bible.",
       "verses": 31087
