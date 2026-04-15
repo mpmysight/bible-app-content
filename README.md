@@ -1,4 +1,4 @@
-# Twino Bible — Content Repository
+# Twino Bible - Content Repository
 
 This repository hosts Bible translations, song books, and devotional content
 for the Twino Bible app. The app fetches content from here on demand.
@@ -8,7 +8,7 @@ for the Twino Bible app. The app fetches content from here on demand.
 ```
 bible-app-content/
 ├── bibles/
-│   ├── rr64.json          Baibuli Erikwera — Runyankole (1964)
+│   ├── sw.json            Swahili NT
 │   ├── web.json           World English Bible
 │   ├── asv.json           American Standard Version
 │   ├── darby.json         Darby Bible
@@ -18,13 +18,8 @@ bible-app-content/
 │   └── songs_rrz.json     Runyankole Rukiga, Zaburi (315 songs)
 ├── devotions/
 │   └── devotions.json     Morning & Evening (Spurgeon, bundled in app)
-├── manifest.json          Master catalog — app reads this first
-└── tools/
-    ├── download_bibles.py  Download public domain Bibles from internet
-    ├── convert_yet.py      Convert .yet Bible files to JSON
-    ├── convert_songs.py    Convert song book .txt files to JSON
-    ├── update_manifest.py  Refresh manifest.json
-    └── publish.py          One-command convert + push
+├── manifest.json          Master catalog - app reads this first
+
 ```
 
 ## How to Add Content
@@ -43,14 +38,14 @@ python tools/publish.py --bible ASV
 ### Convert your own .yet Bible file
 
 ```bash
-python tools/publish.py --yet path/to/Runyankore_RR64.yet
+python tools/publish.py --yet path/to/bible.yet
 ```
 
 ### Add a song book
 
 ```bash
 python tools/publish.py --songs path/to/_rrz.txt \
-  --id RRZ --name "Runyankole Rukiga, Zaburi" --language Runyankole
+  --id RRZ --name "Runyankole" --language Runyankole
 ```
 
 ### Just update manifest and push
@@ -107,6 +102,4 @@ To add a new Bible or song book to the app's download catalog:
 The app fetches from:
 ```
 https://raw.githubusercontent.com/mpmysight/bible-app-content/main/manifest.json
-https://raw.githubusercontent.com/mpmysight/bible-app-content/main/bibles/rr64.json
-https://raw.githubusercontent.com/mpmysight/bible-app-content/main/songs/songs_rrz.json
 ```
