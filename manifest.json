@@ -134,8 +134,8 @@
       "region": "International",
       "category": "international",
       "filename": "songs/songs_eng.json",
-      "version": 1,
-      "count": 260,
+      "version": 2,
+      "count": 6182,
       "bundled": false,
       "description": "Classic English Hymns from Yukuku."
     },
