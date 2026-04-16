@@ -3,29 +3,16 @@
   "updated": "2026-04-16",
   "bibles": [
     {
-      "id": "KJV",
-      "shortName": "KJV",
-      "longName": "King James Version",
+      "id": "ASV",
+      "shortName": "ASV",
+      "longName": "American Standard Version",
       "language": "English",
       "region": "International",
-      "filename": "bibles/kjv.json",
+      "filename": "bibles/asv.json",
       "version": 1,
-      "size_kb": 5043,
-      "bundled": true,
-      "description": "The classic 1611 English translation. Public domain."
-    },
-    {
-      "id": "NKJV",
-      "shortName": "NKJV",
-      "longName": "New King James Version",
-      "language": "English",
-      "region": "International",
-      "filename": "bibles/nkjv.json",
-      "version": 2,
-      "size_kb": 4639,
-      "bundled": true,
-      "description": "The New King James Version translation.",
-      "verses": 31102
+      "size_kb": 4700,
+      "bundled": false,
+      "description": "1901 American Standard Version. Public domain."
     },
     {
       "id": "RR64",
@@ -41,30 +28,6 @@
       "verses": 31106
     },
     {
-      "id": "WEB",
-      "shortName": "WEB",
-      "longName": "World English Bible",
-      "language": "English",
-      "region": "International",
-      "filename": "bibles/web.json",
-      "version": 2,
-      "size_kb": 4634,
-      "bundled": false,
-      "description": "Modern English translation. Public domain."
-    },
-    {
-      "id": "ASV",
-      "shortName": "ASV",
-      "longName": "American Standard Version",
-      "language": "English",
-      "region": "International",
-      "filename": "bibles/asv.json",
-      "version": 1,
-      "size_kb": 4700,
-      "bundled": false,
-      "description": "1901 American Standard Version. Public domain."
-    },
-    {
       "id": "DARBY",
       "shortName": "DARBY",
       "longName": "Darby Bible",
@@ -77,16 +40,42 @@
       "description": "John Nelson Darby translation (1890). Public domain."
     },
     {
-      "id": "YLT",
-      "shortName": "YLT",
-      "longName": "Young's Literal Translation",
+      "id": "KJV",
+      "shortName": "KJV",
+      "longName": "King James Version",
       "language": "English",
       "region": "International",
-      "filename": "bibles/ylt.json",
+      "filename": "bibles/kjv.json",
       "version": 1,
-      "size_kb": 4500,
+      "size_kb": 5043,
+      "bundled": true,
+      "description": "The classic 1611 English translation. Public domain."
+    },
+    {
+      "id": "NIV",
+      "shortName": "NIV",
+      "longName": "New International Version",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/niv.json",
+      "version": 4,
+      "size_kb": 4476,
       "bundled": false,
-      "description": "Robert Young's very literal translation (1862). Public domain."
+      "description": "Arul John NIV Github Bible.",
+      "verses": 31087
+    },
+    {
+      "id": "NKJV",
+      "shortName": "NKJV",
+      "longName": "New King James Version",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/nkjv.json",
+      "version": 2,
+      "size_kb": 4639,
+      "bundled": true,
+      "description": "The New King James Version translation.",
+      "verses": 31102
     },
     {
       "id": "SW",
@@ -101,17 +90,28 @@
       "description": "Public Domain Swahili New Testament."
     },
     {
-      "id": "NIV",
-      "shortName": "NIV",
-      "longName": "New International Version",
+      "id": "WEB",
+      "shortName": "WEB",
+      "longName": "World English Bible",
       "language": "English",
       "region": "International",
-      "filename": "bibles/niv.json",
-      "version": 4,
-      "size_kb": 4476,
+      "filename": "bibles/web.json",
+      "version": 2,
+      "size_kb": 4634,
       "bundled": false,
-      "description": "Arul John NIV Github Bible.",
-      "verses": 31087
+      "description": "Modern English translation. Public domain."
+    },
+    {
+      "id": "YLT",
+      "shortName": "YLT",
+      "longName": "Young's Literal Translation",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/ylt.json",
+      "version": 1,
+      "size_kb": 4500,
+      "bundled": false,
+      "description": "Robert Young's very literal translation (1862). Public domain."
     }
   ],
   "songs": [
