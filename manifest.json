@@ -116,6 +116,18 @@
   ],
   "songs": [
     {
+      "id": "AYM",
+      "name": "AYM Songs",
+      "language": "English",
+      "region": "Africa",
+      "category": "african",
+      "filename": "songs/songs_aym.json",
+      "version": 3,
+      "count": 137,
+      "bundled": false,
+      "description": "Song Book for AYM in Bushenyi."
+    },
+    {
       "id": "EN",
       "name": "English Hymns",
       "language": "English",
@@ -138,18 +150,6 @@
       "count": 315,
       "bundled": false,
       "description": "Runyankole Rukiga hymnal - Centenary Publishing House Ltd."
-    },
-	{
-      "id": "AYM",
-      "name": "AYM Songs",
-      "language": "English",
-      "region": "Africa",
-      "category": "african",
-      "filename": "songs/songs_aym.json",
-      "version": 1,
-      "count": 315,
-      "bundled": false,
-      "description": "Song Book for AYM in Bushenyi."
     }
   ],
   "devotions": [
