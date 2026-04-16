@@ -133,11 +133,11 @@
       "language": "English",
       "region": "International",
       "category": "international",
-      "filename": "songs/songs_en.json",
+      "filename": "songs/songs_eng.json",
       "version": 1,
       "count": 260,
       "bundled": false,
-      "description": "Classic public domain English hymns."
+      "description": "Classic English Hymns from Yukuku."
     },
     {
       "id": "RRZ",
