@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-04-16",
+  "updated": "2026-04-17",
   "bibles": [
     {
       "id": "ASV",
@@ -128,7 +128,7 @@
       "description": "Song Book for AYM in Bushenyi."
     },
     {
-      "id": "EN",
+      "id": "ENG",
       "name": "English Hymns",
       "language": "English",
       "region": "International",
