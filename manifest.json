@@ -159,7 +159,11 @@
       "author": "Charles H. Spurgeon",
       "filename": "devotions/devotions.json",
       "version": 1,
-      "bundled": true
+      "bundled": false,
+      "size_kb": 1400,
+      "description": "Charles H. Spurgeon Morning & Evening. 366 daily devotions. Public domain.",
+      "language": "English",
+      "category": "devotional"
     }
   ]
 }
