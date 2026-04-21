@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-04-17",
+  "updated": "2026-04-22",
   "bibles": [
     {
       "id": "ASV",
@@ -50,6 +50,19 @@
       "size_kb": 5043,
       "bundled": true,
       "description": "The classic 1611 English translation. Public domain."
+    },
+    {
+      "id": "LUG",
+      "shortName": "Luganda",
+      "longName": "Luganda Bible",
+      "language": "Luganda",
+      "region": "Africa",
+      "filename": "bibles/luganda.json",
+      "version": 3,
+      "size_kb": 4675,
+      "bundled": false,
+      "description": "The Luganda Bible",
+      "verses": 31103
     },
     {
       "id": "NIV",
