@@ -40,6 +40,19 @@
       "description": "John Nelson Darby translation (1890). Public domain."
     },
     {
+      "id": "LUG",
+      "shortName": "Luganda",
+      "longName": "Ekitabo Ekitukuvu, Baibuli",
+      "language": "Luganda",
+      "region": "Africa",
+      "filename": "bibles/luganda.json",
+      "version": 4,
+      "size_kb": 4594,
+      "bundled": false,
+      "description": "The Luganda Bible",
+      "verses": 31103
+    },
+    {
       "id": "KJV",
       "shortName": "KJV",
       "longName": "King James Version",
@@ -50,19 +63,6 @@
       "size_kb": 5043,
       "bundled": true,
       "description": "The classic 1611 English translation. Public domain."
-    },
-    {
-      "id": "LUG",
-      "shortName": "Luganda",
-      "longName": "Luganda Bible",
-      "language": "Luganda",
-      "region": "Africa",
-      "filename": "bibles/luganda.json",
-      "version": 3,
-      "size_kb": 4675,
-      "bundled": false,
-      "description": "The Luganda Bible",
-      "verses": 31103
     },
     {
       "id": "NIV",
