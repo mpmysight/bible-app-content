@@ -104,18 +104,6 @@
       "verses": 31102
     },
     {
-      "id": "SW",
-      "shortName": "SW",
-      "longName": "Swahili New Testament",
-      "language": "Swahili",
-      "region": "Africa",
-      "filename": "bibles/sw.json",
-      "version": 1,
-      "size_kb": 1095,
-      "bundled": false,
-      "description": "Public Domain Swahili New Testament."
-    },
-    {
       "id": "WEB",
       "shortName": "WEB",
       "longName": "World English Bible",
