@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-04-22",
+  "updated": "2026-04-23",
   "bibles": [
     {
       "id": "ASV",
@@ -26,6 +26,19 @@
       "bundled": false,
       "description": "Runyankole-Rukiga Bible translation (1964).",
       "verses": 31106
+    },
+    {
+      "id": "SWA",
+      "shortName": "SWA",
+      "longName": "Bibilia Takatifu",
+      "language": "Swahili",
+      "region": "Africa",
+      "filename": "bibles/swahili.json",
+      "version": 2,
+      "size_kb": 4537,
+      "bundled": false,
+      "description": "Global Bible Domain Bibilia Takatifu.",
+      "verses": 31192
     },
     {
       "id": "DARBY",
