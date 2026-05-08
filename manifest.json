@@ -3,18 +3,6 @@
   "updated": "2026-04-23",
   "bibles": [
     {
-      "id": "ASV",
-      "shortName": "ASV",
-      "longName": "American Standard Version",
-      "language": "English",
-      "region": "International",
-      "filename": "bibles/asv.json",
-      "version": 1,
-      "size_kb": 4700,
-      "bundled": false,
-      "description": "1901 American Standard Version. Public domain."
-    },
-    {
       "id": "RR64",
       "shortName": "RR64",
       "longName": "Baibuli Erikwera (1964)",
@@ -39,18 +27,6 @@
       "bundled": false,
       "description": "Global Bible Domain Bibilia Takatifu.",
       "verses": 31192
-    },
-    {
-      "id": "DARBY",
-      "shortName": "DARBY",
-      "longName": "Darby Bible",
-      "language": "English",
-      "region": "International",
-      "filename": "bibles/darby.json",
-      "version": 1,
-      "size_kb": 4600,
-      "bundled": false,
-      "description": "John Nelson Darby translation (1890). Public domain."
     },
     {
       "id": "LUG",
@@ -114,18 +90,6 @@
       "size_kb": 4634,
       "bundled": false,
       "description": "Modern English translation. Public domain."
-    },
-    {
-      "id": "YLT",
-      "shortName": "YLT",
-      "longName": "Young's Literal Translation",
-      "language": "English",
-      "region": "International",
-      "filename": "bibles/ylt.json",
-      "version": 1,
-      "size_kb": 4500,
-      "bundled": false,
-      "description": "Robert Young's very literal translation (1862). Public domain."
     }
   ],
   "songs": [
