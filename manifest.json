@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-04-23",
+  "updated": "2026-05-19",
   "bibles": [
     {
       "id": "ASV",
@@ -9,13 +9,26 @@
       "language": "English",
       "region": "International",
       "filename": "bibles/asv.json",
-      "version": 1,
-      "size_kb": 4647,
+      "version": 2,
+      "size_kb": 4747,
       "bundled": false,
       "description": "The English Revised Version, 1881-1895",
-      "verses": 31106
+      "verses": 31102
     },
-	{
+    {
+      "id": "AMP",
+      "shortName": "AMP",
+      "longName": "Amplified Bible",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/amp.json",
+      "version": 2,
+      "size_kb": 5332,
+      "bundled": false,
+      "description": "The Amplified Bible",
+      "verses": 31103
+    },
+    {
       "id": "RR64",
       "shortName": "RR64",
       "longName": "Baibuli Erikwera (1964)",
@@ -48,10 +61,23 @@
       "language": "Luganda",
       "region": "Africa",
       "filename": "bibles/luganda.json",
-      "version": 4,
-      "size_kb": 4594,
+      "version": 5,
+      "size_kb": 4583,
       "bundled": false,
       "description": "The Luganda Bible",
+      "verses": 31103
+    },
+    {
+      "id": "ESV",
+      "shortName": "ESV",
+      "longName": "English Standard Version",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/esv.json",
+      "version": 2,
+      "size_kb": 4621,
+      "bundled": false,
+      "description": "The English Standard Version",
       "verses": 31103
     },
     {
@@ -65,6 +91,19 @@
       "size_kb": 5043,
       "bundled": true,
       "description": "The classic 1611 English translation. Public domain."
+    },
+    {
+      "id": "NASB",
+      "shortName": "NASB",
+      "longName": "New American Standard Bible",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/nasb.json",
+      "version": 2,
+      "size_kb": 4746,
+      "bundled": false,
+      "description": "The New American Standard Bible",
+      "verses": 31103
     },
     {
       "id": "NIV",
@@ -91,6 +130,19 @@
       "bundled": true,
       "description": "The New King James Version translation.",
       "verses": 31102
+    },
+    {
+      "id": "NLT",
+      "shortName": "NLT",
+      "longName": "New Living Translation",
+      "language": "English",
+      "region": "International",
+      "filename": "bibles/nlt.json",
+      "version": 2,
+      "size_kb": 4721,
+      "bundled": false,
+      "description": "The New Living Translation",
+      "verses": 31080
     },
     {
       "id": "WEB",
@@ -137,8 +189,8 @@
       "region": "Africa",
       "category": "african",
       "filename": "songs/songs_rrz.json",
-      "version": 1,
-      "count": 315,
+      "version": 2,
+      "count": 316,
       "bundled": false,
       "description": "Runyankole Rukiga hymnal - Centenary Publishing House Ltd."
     }
