@@ -35,7 +35,7 @@
       "language": "Runyankole-Rukiga",
       "region": "Africa",
       "filename": "bibles/rr64.json",
-      "version": 7,
+      "version": 8,
       "size_kb": 4647,
       "bundled": false,
       "description": "Runyankole-Rukiga Bible translation (1964).",
@@ -189,7 +189,7 @@
       "region": "Africa",
       "category": "african",
       "filename": "songs/songs_rrz.json",
-      "version": 2,
+      "version": 3,
       "count": 316,
       "bundled": false,
       "description": "Runyankole Rukiga hymnal - Centenary Publishing House Ltd."
