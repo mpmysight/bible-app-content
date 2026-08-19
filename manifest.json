@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-08-19",
   "bibles": [
     {
@@ -207,6 +207,19 @@
       "description": "Charles H. Spurgeon Morning & Evening. 366 daily devotions. Public domain.",
       "language": "English",
       "category": "devotional"
+    }
+  ],
+  "plans": [
+    {
+      "id": "default",
+      "name": "Reading Plans",
+      "filename": "plans/reading_plans.json",
+      "version": 1,
+      "size_kb": 147,
+      "bundled": true,
+      "count": 10,
+      "description": "Daily Bible reading plans.",
+      "language": "English"
     }
   ]
 }
