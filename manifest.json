@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-08-19",
+  "updated": "2026-08-31",
   "bibles": [
     {
       "id": "ASV",
@@ -201,7 +201,7 @@
       "name": "Morning & Evening",
       "author": "Charles H. Spurgeon",
       "filename": "devotions/devotions.json",
-      "version": 2,
+      "version": 3,
       "bundled": false,
       "size_kb": 1400,
       "description": "Charles H. Spurgeon Morning & Evening. 366 daily devotions. Public domain.",
