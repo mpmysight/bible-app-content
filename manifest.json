@@ -13,7 +13,8 @@
       "size_kb": 4747,
       "bundled": false,
       "description": "The English Revised Version, 1881-1895",
-      "verses": 31102
+      "verses": 31102,
+      "hash": "839e9f8f6f36acbc"
     },
     {
       "id": "AMP",
@@ -26,7 +27,8 @@
       "size_kb": 5332,
       "bundled": false,
       "description": "The Amplified Bible",
-      "verses": 31103
+      "verses": 31103,
+      "hash": "17518f8e88eafc81"
     },
     {
       "id": "RR64",
@@ -39,7 +41,8 @@
       "size_kb": 4647,
       "bundled": false,
       "description": "Runyankole-Rukiga Bible translation (1964).",
-      "verses": 31106
+      "verses": 31106,
+      "hash": "0f698b5ff624ce83"
     },
     {
       "id": "SWA",
@@ -52,7 +55,8 @@
       "size_kb": 4537,
       "bundled": false,
       "description": "Global Bible Domain Bibilia Takatifu.",
-      "verses": 31192
+      "verses": 31103,
+      "hash": "d26f9fe9cb06c8cd"
     },
     {
       "id": "LUG",
@@ -65,7 +69,8 @@
       "size_kb": 4583,
       "bundled": false,
       "description": "The Luganda Bible",
-      "verses": 31103
+      "verses": 31103,
+      "hash": "acb39ea405262d04"
     },
     {
       "id": "ESV",
@@ -78,7 +83,8 @@
       "size_kb": 4621,
       "bundled": false,
       "description": "The English Standard Version",
-      "verses": 31103
+      "verses": 31103,
+      "hash": "5e20dfeada637a61"
     },
     {
       "id": "KJV",
@@ -90,7 +96,9 @@
       "version": 1,
       "size_kb": 5043,
       "bundled": true,
-      "description": "The classic 1611 English translation. Public domain."
+      "description": "The classic 1611 English translation. Public domain.",
+      "verses": 31100,
+      "hash": "1db61e4d03300724"
     },
     {
       "id": "NASB",
@@ -103,7 +111,8 @@
       "size_kb": 4746,
       "bundled": false,
       "description": "The New American Standard Bible",
-      "verses": 31103
+      "verses": 31103,
+      "hash": "0a7e031401841a18"
     },
     {
       "id": "NIV",
@@ -116,7 +125,8 @@
       "size_kb": 4476,
       "bundled": false,
       "description": "Arul John NIV Github Bible.",
-      "verses": 31087
+      "verses": 31087,
+      "hash": "75a344cdcb5c7046"
     },
     {
       "id": "NKJV",
@@ -129,7 +139,8 @@
       "size_kb": 4639,
       "bundled": true,
       "description": "The New King James Version translation.",
-      "verses": 31102
+      "verses": 31102,
+      "hash": "ad8d765eb2bd90f9"
     },
     {
       "id": "NLT",
@@ -142,7 +153,8 @@
       "size_kb": 4721,
       "bundled": false,
       "description": "The New Living Translation",
-      "verses": 31080
+      "verses": 31080,
+      "hash": "b320a81502c3931e"
     },
     {
       "id": "WEB",
@@ -154,7 +166,9 @@
       "version": 2,
       "size_kb": 4634,
       "bundled": false,
-      "description": "Modern English translation. Public domain."
+      "description": "Modern English translation. Public domain.",
+      "verses": 31098,
+      "hash": "7cfd7aeea4effd67"
     }
   ],
   "songs": [
@@ -166,10 +180,11 @@
       "category": "african",
       "filename": "songs/songs_aym.json",
       "version": 3,
-      "size_kb": 102,
+      "size_kb": 101,
       "count": 137,
       "bundled": false,
-      "description": "Song Book for AYM in Bushenyi."
+      "description": "Song Book for AYM in Bushenyi.",
+      "hash": "1d0d62dd3d80be7e"
     },
     {
       "id": "ENG",
@@ -182,7 +197,8 @@
       "size_kb": 5712,
       "count": 6182,
       "bundled": false,
-      "description": "Classic English Hymns from Yukuku."
+      "description": "Classic English Hymns from Yukuku.",
+      "hash": "80b1c79a3e4f7c71"
     },
     {
       "id": "RRZ",
@@ -195,7 +211,8 @@
       "size_kb": 218,
       "count": 316,
       "bundled": false,
-      "description": "Runyankole Rukiga hymnal - Centenary Publishing House Ltd."
+      "description": "Runyankole Rukiga hymnal - Centenary Publishing House Ltd.",
+      "hash": "3b3812ff966a06d4"
     }
   ],
   "devotions": [
@@ -206,10 +223,12 @@
       "filename": "devotions/devotions.json",
       "version": 3,
       "bundled": false,
-      "size_kb": 1400,
+      "size_kb": 1398,
       "description": "Charles H. Spurgeon Morning & Evening. 366 daily devotions. Public domain.",
       "language": "English",
-      "category": "devotional"
+      "category": "devotional",
+      "count": 366,
+      "hash": "28a31e244dd44687"
     }
   ],
   "plans": [
@@ -222,7 +241,8 @@
       "bundled": true,
       "count": 10,
       "description": "Daily Bible reading plans.",
-      "language": "English"
+      "language": "English",
+      "hash": "b94c925edbd99ea4"
     }
   ]
 }
