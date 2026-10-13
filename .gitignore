@@ -25,5 +25,8 @@ guide.txt
 tools/
 screenshots/
 
+# Local publish script - depends on tools/, so it would be broken in a clone
+publish.bat
+
 # Original Readme
 oREADME.md
