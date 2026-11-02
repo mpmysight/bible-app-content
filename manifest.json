@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "updated": "2026-10-13",
+  "version": 6,
+  "updated": "2026-11-02",
   "bibles": [
     {
       "id": "ASV",
@@ -37,12 +37,12 @@
       "language": "Runyankole-Rukiga",
       "region": "Africa",
       "filename": "bibles/rr64.json",
-      "version": 12,
+      "version": 14,
       "size_kb": 4647,
       "bundled": false,
       "description": "Runyankole-Rukiga Bible translation (1964).",
       "verses": 31106,
-      "hash": "0f698b5ff624ce83"
+      "hash": "a39dc996a6ed3830"
     },
     {
       "id": "SWA",
